@@ -18,7 +18,8 @@
       select nombre ,   max(saldo) from tblusuarios where sexo = 'M';
       
      ```
-![[Pasted image 20231110153006.png]]
+![imagen](https://github.com/montanez8/reto-sql-campus/assets/99758907/ff3e87b3-1a99-47bf-ade5-879717f5b4a4)
+
 3. Listar nombre y teléfono de los usuarios con teléfono NOKIA, BLACKBERRY o SONY
 
      ```sql
@@ -26,12 +27,16 @@
       SELECT nombre,telefono FROM tblUsuarios
 Where marca = "NOKIA" Or marca = "BLACKBERRY" Or marca = "SONY";
      ```
-![[Pasted image 20231110153608.png]]
+![imagen](https://github.com/montanez8/reto-sql-campus/assets/99758907/d571766d-09d7-4f1e-90dc-2930def50c7d)
+
 4. Contar los usuarios sin saldo o inactivos
 
      ```sql
       # Solucion en 'sql'
+     select   COUNT(*) as usuarios from tblusuarios where saldo =0 or activo = false;
      ```
+     ![imagen](https://github.com/montanez8/reto-sql-campus/assets/99758907/b7d746e2-8b05-4c93-9cae-6b2a972ef0ca)
+
 
 5. Listar el login de los usuarios con nivel 1, 2 o 3
 
