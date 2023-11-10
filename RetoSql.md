@@ -8,7 +8,8 @@
    # Solucion en 'sql'
 	 select nombre from tblUsuarios; 
    ```
-   ![[Pasted image 20231110151929.png]]
+  ![imagen](https://github.com/montanez8/reto-sql-campus/assets/99758907/e1f933d1-50f1-45c9-b90f-ac7542b7fbba)
+
 
 2. Calcular el saldo máximo de los usuarios de sexo “Mujer”
 
