@@ -64,17 +64,14 @@
 
     ```
 
-    ```
-
 9.  Contar el número de usuarios por nivel
 
-         ```sql
+    ```sql
           # Solucion en 'sql'
           select nivel, count(idx) as cantidad from tblusuarios group by nivel;
 
     ```
 
-    ```
 
 10. Listar el login de los usuarios con nivel 2
 
