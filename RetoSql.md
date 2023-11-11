@@ -21,7 +21,7 @@
 
          ```sql
           # Solucion en 'sql'
-          SELECT nombre,telefono FROM tblUsuarios
+          select nombre,telefono from tblUsuarios
 
     Where marca = "NOKIA" Or marca = "BLACKBERRY" Or marca = "SONY";
     ```
