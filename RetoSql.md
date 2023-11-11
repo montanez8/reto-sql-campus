@@ -21,9 +21,7 @@
 
          ```sql
           # Solucion en 'sql'
-          select nombre,telefono from tblUsuarios;
-
-    Where marca = "NOKIA" Or marca = "BLACKBERRY" Or marca = "SONY";
+          select nombre,telefono from tblUsuarios Where marca = "NOKIA" Or marca = "BLACKBERRY" Or marca = "SONY";
     ```
 
 4.  Contar los usuarios sin saldo o inactivos
