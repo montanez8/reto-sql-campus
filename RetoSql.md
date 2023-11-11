@@ -21,7 +21,7 @@
 
          ```sql
           # Solucion en 'sql'
-          select nombre,telefono from tblUsuarios
+          select nombre,telefono from tblUsuarios;
 
     Where marca = "NOKIA" Or marca = "BLACKBERRY" Or marca = "SONY";
     ```
@@ -37,9 +37,7 @@
 
          ```sql
           # Solucion en 'sql'
-          select usuario
-
-    from tblusuarios where nivel = 1 or nivel = 2 or nivel = 3 ;
+          select usuario from tblusuarios where nivel = 1 or nivel = 2 or nivel = 3 ;
     ```
 
 6.  Listar los números de teléfono con saldo menor o igual a 300
@@ -60,27 +58,21 @@
 
          ```sql
           # Solucion en 'sql'
-          select compañia, count(idx) as cantidad
-
-    from tblusuarios group by compañia;
+          select compañia, count(idx) as cantidad from tblusuarios group by compañia;
     ```
 
 9.  Contar el número de usuarios por nivel
 
          ```sql
           # Solucion en 'sql'
-          select nivel, count(idx) as cantidad
-
-    from tblusuarios group by nivel;
+          select nivel, count(idx) as cantidad from tblusuarios group by nivel;
     ```
 
 10. Listar el login de los usuarios con nivel 2
 
           ```sql
            # Solucion en 'sql'
-           select nivel, count(idx) as cantidad
-
-    from tblusuarios where nivel = 2;
+           select nivel, count(idx) as cantidad from tblusuarios where nivel = 2;
 
           ```
 
@@ -165,8 +157,7 @@
 
    ```sql
     # Solucion en 'sql'
-    select marca
-    from tblusuarios order by marca desc ;
+    select marca from tblusuarios order by marca desc ;
    ```
 
 10. Listar las diferentes compañias en orden alfabético aleatorio
@@ -235,9 +226,7 @@
 
          ```sql
           # Solucion en 'sql'
-          select sexo ,  count(idx) as usuarios
-
-    from tblusuarios group by sexo;
+          select sexo ,  count(idx) as usuarios from tblusuarios group by sexo;
     ```
 
 7.  Listar el login y teléfono de los usuarios con compañia telefónica AT&T
