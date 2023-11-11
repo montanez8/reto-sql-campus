@@ -34,7 +34,7 @@
 
 5.  Listar el login de los usuarios con nivel 1, 2 o 3
 
-         ```sql
+    ```sql
           # Solucion en 'sql'
           select usuario from tblusuarios where nivel = 1 or nivel = 2 or nivel = 3 ;
 
@@ -58,7 +58,7 @@
 
 8.  Contar el número de usuarios por compañía telefónica
 
-         ```sql
+    ```sql
           # Solucion en 'sql'
           select compañia, count(idx) as cantidad from tblusuarios group by compañia;
 
