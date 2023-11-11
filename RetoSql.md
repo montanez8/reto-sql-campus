@@ -40,8 +40,6 @@
 
     ```
 
-    ```
-
 6.  Listar los números de teléfono con saldo menor o igual a 300
 
     ```sql
@@ -80,7 +78,6 @@
            select nivel, count(idx) as cantidad from tblusuarios where nivel = 2;
 
           ```
-
 11. Mostrar el email de los usuarios que usan gmail
 
     ```sql
